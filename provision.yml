@@ -10,7 +10,7 @@
       - {name: web01, ip: 10.10.10.101, port: 80, paramstring: cookie A check}
       - {name: web02, ip: 10.10.10.102, port: 80, paramstring: cookie A check}
     haproxy_stats_users:
-      - {username: joe, password: soap}
+      - {username: test, password: test}
   
   tasks:
     - name: Update apt cache 
